@@ -11,7 +11,7 @@ public class StringExplorer
     {
         String sample = "The quick brown fox jumped over the lazy dog.";
         int notFoundPsn = sample.indexOf("slow");
-        System.out.prinln("sample.indexOf(\"slow\") = " + notFoundPsn);
+        System.out.println("sample.indexOf(\"slow\") = " + notFoundPsn);
 
         //  Demonstrate the indexOf method.
         int position = sample.indexOf("quick");
